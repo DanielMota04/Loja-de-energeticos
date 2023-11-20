@@ -1,0 +1,87 @@
+
+/*------------------------------------------------------------------SECTION----------------------------------------------------------------*/
+
+.mainSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.productArea{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 50px;
+}
+
+.productImage{
+    height: 500px;
+}
+.productInfoDiv{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    gap: 70px 0px;
+}
+.buyButton{
+    width: 100%;
+    height: 40px;
+}
+.productDescription{
+    text-align: center;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.descriptionParagraph{
+    padding: 20px 50px 0px;
+}
+.nutricionalArea{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+.productTitle{
+    align-self: center;
+}
+.nutricionalTable{
+    margin: 20px 50px 0px;
+    border-collapse: collapse;
+}
+th{
+   text-align: left;
+}
+td, th{
+    padding: 10px;
+}
+td:nth-child(even){
+    text-align: right;
+}
+.buyButton, input[type="submit"] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6px 14px;
+    font-family: -apple-system, BlinkMacSystemFont, "Roboto", sans-serif;
+    border-radius: 6px;
+    border: none;
+    color: #fff;
+    background: linear-gradient(180deg, #4b91f7 0%, #367af6 100%);
+    background-origin: border-box;
+    box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25),
+      inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+  
+.buyButton:focus {
+    box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2),
+      0px 0.5px 1.5px rgba(54, 122, 246, 0.25),
+      0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+    outline: 0;
+}

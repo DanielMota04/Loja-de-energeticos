@@ -1,0 +1,36 @@
+
+/*FOOTER*/
+.footerContainer{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #5114af;
+    padding: 10px 350px;
+}
+.supportDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.title{
+    font-size: 19px;
+}
+.phoneDiv{
+    display: flex;
+    align-items: flex-end;
+    font-size: 23px;
+}
+.headphoneIcon{
+    width: 30px;
+}
+.safetyDiv{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.safetyItem{
+    border: 2px solid black;
+    display: flex;
+    padding: 5px;
+}

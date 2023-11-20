@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="loginStyle.css" />
+    <link rel="stylesheet" href="/Projeto Pinergy/components/loginRegisterHeader.css">
+    <link rel="stylesheet" href="/Projeto Pinergy/components/loginRegisterFooter.css">
+    <link
+      rel="icon"
+      href="/Projeto Pinergy/images/Logo_Pinergy.ico"
+      type="image/x-icon"
+    />
+    <title>Dr. Pinergy | Faça Login na sua conta</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="headerContainer">
+        <a href="/Projeto Pinergy/index/index.html"
+          ><img
+            src="/Projeto Pinergy/images/Logo_Pinergy.png"
+            alt=""
+            class="logo"
+        /></a>
+
+        <div class="safeBuy">
+          <span>
+            <p>Seus dados</p>
+            <p>100% seguros</p>
+          </span>
+
+          <img
+            src="/Projeto Pinergy/images/padlockImg.svg"
+            alt=""
+            class="safeBuyIcon"
+          />
+        </div>
+      </header>
+      <section class="mainSection">
+        <div class="titleSection">
+          <h2>Faça Login no nosso site</h2>
+        </div>
+
+        <form action="" class="registerForm">
+          <span>
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="usuario@email.com"
+              required
+              autocomplete="off"
+            />
+          </span>
+          <span>
+            <label for="password">Senha:</label>
+            <input type="password" name="password" id="password" required />
+          </span>
+          <input
+            type="submit"
+            name="submitButton"
+            id="submitButton"
+            value="Criar conta"
+          />
+        </form>
+        <p class="goToRegister">Não possui uma conta? <a href="registerPage.html">Registre-se</a></p>
+      </section>
+      <footer class="footerContainer">
+        <div class="supportDiv">
+          <p class="title">Atendimento</p>
+          <div class="phoneDiv">
+            <img
+              src="/Projeto Pinergy/images/headphoneIcon.svg"
+              alt="headphoneIcon"
+              class="headphoneIcon"
+            />
+            <p class="phone">(79)99999-9999</p>
+          </div>
+
+          <p class="email">sac@pinergy.com.br</p>
+        </div>
+        <div class="safetyDiv">
+          <p class="title">Segurança</p>
+          <div class="safetyItem">
+            <span>
+              <p>Seus dados</p>
+              <p>100% seguros</p>
+            </span>
+
+            <img
+              src="/Projeto Pinergy/images/padlockImg.svg"
+              alt="padlockImg"
+              class="safeBuyIcon"
+            />
+          </div>
+          <a href="https://www.lojaprotegida.com.br" target="_blank">
+            <img
+              src="/Projeto Pinergy/images/LojaProtegida.png"
+              alt="lojaProtegida"
+              class="safeStoreImg"
+            />
+          </a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

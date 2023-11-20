@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./burnPageStyle.css" />
+    <link rel="stylesheet" href="/Projeto Pinergy/components/headerNavbar.css">
+    <link rel="stylesheet" href="/Projeto Pinergy/components//footer.css">
+    <link rel="stylesheet" href="/Projeto Pinergy/components/generalContent.css">
+    <title>Document</title>
+    <link
+      rel="icon"
+      href="/Projeto Pinergy/images/Logo_Pinergy.ico"
+      type="image/x-icon"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="headerContainer">
+        <a href="/Projeto Pinergy/index/index.html" class="logoButton"
+          ><img
+            src="/Projeto Pinergy/images/Logo_Pinergy.png"
+            alt="logo-img-notFound"
+            class="logoImg"
+        /></a>
+        <form action="" class="searchBox">
+          <input
+            type="text"
+            name="searchBox"
+            id="searchBoxInput"
+            placeholder="O que você procura?"
+          />
+          <button class="searchIconButton">
+            <img
+              src="/Projeto Pinergy/images/searchIcon.svg"
+              alt="searchIconNotFound"
+            />
+          </button>
+        </form>
+        <a href="/Projeto Pinergy/login-register pages/loginPage.html"
+          ><button class="loginButton">Login/Cadastro</button></a
+        >
+        <div class="cart">
+          <a href="./cart.html"
+            ><img
+              src="/Projeto Pinergy/images/cartIcon.svg"
+              alt="cartImgNotFound"
+              class="cartImg"
+          /></a>
+        </div>
+      </header>
+      <nav class="navBarContainer">
+        <a
+          href="/Projeto Pinergy/categoryPages/MonsterPage/monsterPage.html"
+          class="categoryCard"
+        >
+          <button class="categoryButton">Monster</button>
+        </a>
+        <a
+          href="/Projeto Pinergy/categoryPages/RoxxPage/roxxPage.html"
+          class="categoryCard"
+        >
+          <button class="categoryButton">Roxx Energy</button>
+        </a>
+        <a
+          href="/Projeto Pinergy/categoryPages/redbullPage/redbullPage.html"
+          class="categoryCard"
+        >
+          <button class="categoryButton">RedBull</button>
+        </a>
+        <a
+          href="/Projeto Pinergy/categoryPages/tntPage/tntPage.html"
+          class="categoryCard"
+        >
+          <button class="categoryButton">TNT</button>
+        </a>
+        <a
+          href="/Projeto Pinergy/categoryPages/burnPage/burnPage.html"
+          class="categoryCard"
+        >
+          <button class="categoryButton">Burn</button>
+        </a>
+      </nav>
+
+
+      <section class="mainSection">
+
+        <section class="productArea">
+          <div class="productImageDiv">
+            <img
+              src="/Projeto Pinergy/product Images/BurnImages/burn1.png"
+              alt="MonsterImage"
+              class="productImage"
+            />
+          </div>
+          <div class="productInfoDiv">
+            <h2 class="MainproductTitle">Burn Energy Drink Original</h2>
+            <h3 class="productValue">R$19,90</h3>
+            <button class="buyButton">COMPRAR</button>
+            <form action="" class="cepForm">
+              <label for="CEP">Informe seu Cep</label>
+              <input
+                type="text"
+                name="CEP"
+                id="cepInput"
+                placeholder="00000-000"
+                required
+              />
+              <input type="submit" value="Calcular" />
+            </form>
+          </div>
+        </section>
+
+        <section class="productDescription">
+            <h2 class="productTitle">Descrição Geral</h2>
+            <p class="descriptionParagraph">Surpreenda-se com a lata do energético mais animal do planeta. Com duas vezes mais energia do que uma bebida energética regular. Monster possui uma presença marcante e um sabor único! Inconfundível.</p>
+        </section>
+
+        <section class="nutricionalArea">
+            <h2 class="productTitle">Informações Nutricionais</h2>
+            <table class="nutricionalTable" border="3">
+                <tr class="tableRow">
+                    <th class="tableHead">Ingredientes</th>
+                    <th class="tableHead">Quantidade por porção (200ml)</th>
+                </tr>
+                <tr class="tableRow">
+                    <td class="tableData">Valor Energético</td>
+                    <td class="tableData">93Kcal = 391kj</td>
+                </tr>
+                <tr class="tableRow">
+                    <td class="tableData">Carboidratos</td>
+                    <td class="tableData">23G</td>
+                </tr>
+                <tr class="tableRow">
+                    <td class="tableData">Açucares</td>
+                    <td class="tableData">23G</td>
+                </tr>
+                <tr class="tableRow">
+                    <td class="tableData">Sódio</td>
+                    <td class="tableData">155mg</td>
+                </tr>
+                <tr class="tableRow">
+                    <td class="tableData">Vitamina B3 (Niacina)</td>
+                    <td class="tableData">16mg</td>
+                </tr>
+            </table>
+        </section>
+        
+      </section>
+
+      <footer class="footerContainer">
+        <div class="mainFooter">
+          <img
+            src="/Projeto Pinergy/images/Logo_Pinergy.png"
+            alt="logo-img-notFound"
+            class="logoImgFooter"
+          />
+          <a href="./index.html" class="backToTopButton">Voltar ao inicio</a>
+        </div>
+        <div class="endPage">
+          <div class="contact">
+            <p class="titleEnd">Atendimento</p>
+            <div>
+              <img
+                src="/Projeto Pinergy/images/phoneIcon.svg"
+                alt="phone Icon"
+                class="iconEnd"
+              />(79) 99999-9999
+            </div>
+            <div>
+              <img
+                src="/Projeto Pinergy/images/mailIcon.svg"
+                alt="mail Icon"
+                class="iconEnd"
+              />
+              sac@pinergy.com.br
+            </div>
+          </div>
+          <div class="socialMedia">
+            <p class="titleEnd">Redes sociais</p>
+            <div class="socialMediaInfo">
+              <img
+                src="/Projeto Pinergy/images/InstagramIcon.svg"
+                alt=""
+                class="iconEnd"
+              />
+              <p class="socialMediaName">Instagram</p>
+            </div>
+            <div class="socialMediaInfo">
+              <img
+                src="/Projeto Pinergy/images/youtubeIcon.svg"
+                alt=""
+                class="iconEnd"
+              />
+              <p class="socialMediaName">Youtube</p>
+            </div>
+            <div class="socialMediaInfo">
+              <img
+                src="/Projeto Pinergy/images/tiktokIcon.svg"
+                alt=""
+                class="iconEnd"
+              />
+              <p class="socialMediaName">TikTok</p>
+            </div>
+            <div class="socialMediaInfo">
+              <img
+                src="/Projeto Pinergy/images/twitterIcon.svg"
+                alt=""
+                class="iconEnd"
+              />
+              <p class="socialMediaName">Twitter</p>
+            </div>
+          </div>
+          <div class="paymentMethod">
+            <p class="titleEnd">Formas de pagamento</p>
+            <div class="paymentImages">
+              <img
+                src="/Projeto Pinergy/images/BBimg.webp"
+                alt="BBimg"
+                class="paymentMethodImage"
+              />
+              <img
+                src="/Projeto Pinergy/images/Boletoimg.webp"
+                alt="boletoImg"
+                class="paymentMethodImage"
+              />
+              <img
+                src="/Projeto Pinergy/images/bradescoImg.webp"
+                alt="bradescoImg"
+                class="paymentMethodImage"
+              />
+              <img
+                src="/Projeto Pinergy/images/eloImg.webp"
+                alt="eloImg"
+                class="paymentMethodImage"
+              />
+              <img
+                src="/Projeto Pinergy/images/MasterImg.webp"
+                alt="mastercardImg"
+                class="paymentMethodImage"
+              />
+              <img
+                src="/Projeto Pinergy/images/pixImg.webp"
+                alt="pixImg"
+                class="paymentMethodImage"
+              />
+              <img
+                src="/Projeto Pinergy/images/visaImg.webp"
+                alt="visaImg"
+                class="paymentMethodImage"
+              />
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

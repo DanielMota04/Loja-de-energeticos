@@ -1,0 +1,54 @@
+/*FOOTER*/
+.logoImgFooter {
+    width: 2em;
+  }
+  .mainFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5114af;
+    padding: 10px 30px;
+  }
+  .backToTopButton {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding-right: 30px;
+    transition: 0.4s;
+  }
+  .backToTopButton:hover {
+    color: #00ff03;
+    transform: scale(1.1);
+  }
+  /*Footer endpage*/
+  .endPage {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0px;
+  }
+  .titleEnd {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  .contact {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    align-items: center;
+  }
+  .socialMediaInfo {
+    display: flex;
+    gap: 0px 10px;
+    margin: 10px 0px;
+    align-items: flex-end;
+  }
+  .paymentImages {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-top: 10px;
+  }
+  .iconEnd {
+    width: 30px;
+  }
+  

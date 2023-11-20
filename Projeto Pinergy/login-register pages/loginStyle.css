@@ -1,0 +1,80 @@
+
+/*SECTION*/
+.mainSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+    gap: 10px
+}
+.titleSection{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.registerForm{
+    background-color: rgba(0, 0, 0, 0.65);
+    border-radius: 30px; 
+    padding: 2.5rem; 
+    max-width: 500px;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.registerForm span{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    padding-left: 1rem;
+    padding-right: 0.5rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    margin-bottom: 0.5rem;
+    border: 1px solid #fff;
+    background-color: transparent;
+    border-radius: 100px; /* Use um valor grande para simular rounded-full */
+    width: 20rem;
+    height: 3rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    color: #fff;
+    font-family: monospace;
+    margin: 1rem 0rem;
+}
+input:focus{
+    transform: scale(1.05);
+    outline: none;
+}
+input::placeholder{
+    color: #fff;
+    font-family: monospace;
+}
+
+#submitButton{
+    color: #fff; /* text-white */
+    font-weight: bold; /* font-bold */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* shadow-md */
+    border-radius: 9999px; /* rounded-full */
+    width: 20rem; /* w-80 */
+    transition: all 0.3s ease-in-out; /* transition-all duration-300 ease-in-out */
+    font-family: monospace; /* font-mono */
+    transition: transform 0.2s;
+}
+#submitButton:hover{
+    transform: scale(1.05);
+}
+.goToRegister{
+    margin-top: 3px;
+    font-family: monospace;
+    font-size: 1.2rem;
+}
+.goToRegister a{
+    text-decoration: none;
+}
+

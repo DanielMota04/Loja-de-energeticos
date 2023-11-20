@@ -1,0 +1,34 @@
+/*GERAL*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #e7cbe2;
+}
+/*HEADER*/
+.headerContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 30px 10px 30px;
+    min-height: 40px;
+    gap: 20px;
+    background-color: #5114af;
+}
+.logo{
+    width: 59px;
+}
+.safeBuy{
+    display: flex;
+    border: 2px solid black;
+    padding: 5px;
+}
+.safeBuyIcon{
+    width: 50px;
+}

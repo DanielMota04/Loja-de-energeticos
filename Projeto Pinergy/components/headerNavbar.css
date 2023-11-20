@@ -1,0 +1,76 @@
+
+.headerContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 30px 10px 30px;
+    min-height: 110px;
+    gap: 20px;
+    position: fixed;
+    background-color:  #5114af;
+    z-index: 1;
+  }
+  .logoImg {
+    width: 59px;
+  }
+  .searchBox {
+    border-bottom: 2px solid white;
+    flex: 1 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  #searchBoxInput {
+    border: transparent;
+    background-color: transparent;
+    outline: none;
+    flex: 1 0 auto;
+    font-size: 18px;
+    padding-left: 20px;
+    color: white;
+  }
+  #searchBoxInput::placeholder {
+    color: white;
+  }
+  .searchIconButton {
+    border: transparent;
+    background-color: transparent;
+  }
+  .searchIconButton > img {
+    height: 20px;
+  }
+  .loginButton {
+    border: transparent;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    transition: 0.4s;
+  }
+  .loginButton:hover {
+    color: #00ff03;
+    transform: scale(1.1);
+  }
+  .cartImg {
+    width: 40px;
+  }
+  /*NAVBAR*/
+  .navBarContainer {
+    margin-top: 157px;
+    background-color:  #7a2fd1;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 90px;
+  }
+  .categoryButton {
+    border: transparent;
+    background-color: transparent;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.4s;
+    color: black;
+  }
+  .categoryButton:hover {
+    color: #00ff03;
+    transform: scale(1.1);
+  }

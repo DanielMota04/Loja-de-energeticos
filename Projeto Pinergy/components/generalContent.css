@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #e7cbe2;
+}
+h3 {
+  margin: 20px 0px;
+}
